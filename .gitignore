@@ -10,3 +10,4 @@ mvnw
 .mvn
 *.jar
 *.class
+/vedu/vedu.iml
