@@ -8,6 +8,4 @@ mvnw
 *.md
 .idea
 .mvn
-*.jar
-*.class
 /vedu/vedu.iml
