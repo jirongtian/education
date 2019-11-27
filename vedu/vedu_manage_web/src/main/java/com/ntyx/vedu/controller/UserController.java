@@ -18,7 +18,7 @@ public class UserController extends BaseController {
     /**
      * 查询用户表数据
      */
-    @RequestMapping(value = "/list" , name = "用户查询")
+    @GetMapping(value = "/list" , name = "用户查询")
     public ResponseEntity<PageInfo> list(@RequestParam(defaultValue = "1") Integer page , @RequestParam(defaultValue = "5") Integer pageSize){
         //分页数据
         PageInfo pageInfo = userService.findAll(page, pageSize);
